@@ -25,3 +25,12 @@ Notes from learning Jenkins
 ### Jenkins Ui
 - managing users and teams
     - if you wanna do a role based implementation, you have to install a plugin
+### Systems Administration with Jenkins
+- backup
+    - backup `jenkins_home` directory
+        - this contains:
+            - jobs (aka pipelines)
+            - config
+    - you can do filesystem snapshots, use a plugin, or just write a shell script to back up the instance
+- restore
+    - copy the files back!
