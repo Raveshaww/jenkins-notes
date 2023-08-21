@@ -22,3 +22,6 @@ Notes from learning Jenkins
 - Jenkins steps and plugin
     - Example of installing with cli:
         - `java -jar jenkins-cli.jar -s http://localhost:8085 -auth 'admin:Adm!n321' install-plugin cloudbees-bitbucket-branch-source`
+### Jenkins Ui
+- managing users and teams
+    - if you wanna do a role based implementation, you have to install a plugin
