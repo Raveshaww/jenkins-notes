@@ -6,4 +6,13 @@ Notes from learning Jenkins
     - CD as in deployment just deploys without a human checking things
 ### Installing Jenkins
 - Installing Jenkins in a VM
-- Jenkings CLI
+    - requires java
+        - `sudo apt install openjdk-11-jdk`
+    - add repo key
+    - add to server source list 
+    - systemctl start service
+    - open firewall (`8080/tcp` by default)
+        - to change the port, edit `/lib/systemd/system/jenkins.service `
+    - unlock jenkins with the info from the file specified
+- Jenkins CLI
+    - You use ssh to communicate with the server
