@@ -16,3 +16,9 @@ Notes from learning Jenkins
     - unlock jenkins with the info from the file specified
 - Jenkins CLI
     - You use ssh to communicate with the server
+### Jenkins Plugins and Integrations
+- Searching through plugins
+    - located in `manage jenkins` section
+- Jenkins steps and plugin
+    - Example of installing with cli:
+        - `java -jar jenkins-cli.jar -s http://localhost:8085 -auth 'admin:Adm!n321' install-plugin cloudbees-bitbucket-branch-source`
