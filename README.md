@@ -40,3 +40,8 @@ Notes from learning Jenkins
     - by default, completed builds are stored here:
         - `/var/lib/jenkins/workspace`
             - the build will be the name of the pipeline
+### Build agents
+- what are build agents
+    - one prereq is that it needs to be a system that has java
+- using container build agents
+    - for the agent field, specify a container image
