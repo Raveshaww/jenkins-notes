@@ -45,3 +45,6 @@ Notes from learning Jenkins
     - one prereq is that it needs to be a system that has java
 - using container build agents
     - for the agent field, specify a container image
+### Jenkins Security
+- Managing and enabling security
+    - As you might guess, you have to add plugins to get relatively basic security features
