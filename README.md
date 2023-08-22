@@ -34,3 +34,9 @@ Notes from learning Jenkins
     - you can do filesystem snapshots, use a plugin, or just write a shell script to back up the instance
 - restore
     - copy the files back!
+### Pipelines
+- build a pipeline
+    - example pipeline in `jenkinsfile_examples/Jenkinsfile`
+    - by default, completed builds are stored here:
+        - `/var/lib/jenkins/workspace`
+            - the build will be the name of the pipeline
