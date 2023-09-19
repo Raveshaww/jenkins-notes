@@ -1,4 +1,4 @@
-# jenkins
+# Jenkins Notes
 Basic notes from when I was learning Jenkins working through a KodeKloud course. May they help someone else!
 ### Prereqs
 - What is CI/CD
